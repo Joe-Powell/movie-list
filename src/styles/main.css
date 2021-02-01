@@ -1,0 +1,64 @@
+* {
+    margin:0;
+    padding:0;
+     box-sizing: border-box; 
+}
+
+body {
+    background-color:royalblue;
+}
+
+.input-container {
+    width:1170px;
+    padding:20px 30px;
+    border-radius: 10px;
+    margin:20px auto;
+    background-color: white;
+}
+
+.input-container label{
+    margin-right:20px;
+    font-size:18px;
+    font-weight: bold;
+
+
+}
+
+.movies-container {
+    width:1170px;
+    padding:20px 30px;
+    border-radius: 10px;
+    margin:auto;
+    background-color: white;
+    border: black 1px solid;
+    display:flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+
+}
+
+.movie-container {
+    border: black 1px solid;
+    text-align: center;
+    transition: all 0.4s ease-in-out;
+    margin: 10px;
+}
+
+.movie-container:hover {
+box-shadow: -1px 3px 10px 5px rgba(0,0,0,0.75);
+cursor: pointer;
+ border: none;   
+}
+
+.movie-image {
+    height:300px;
+    width:220px;
+    /* background-image: url('../images/dark-knight.jpg'); */
+    background-size: cover;
+}
+
+.movie-title, .movie-year {
+    margin:10px;
+}
+
